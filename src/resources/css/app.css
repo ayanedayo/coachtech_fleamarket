@@ -1,0 +1,163 @@
+/* header */
+.header { background:#000; color:#fff; }
+.header__inner { max-width: 1100px; margin: 0 auto; padding: 10px 16px; display:flex; align-items:center; gap:16px; }
+.header__inner--app { justify-content: space-between; }
+.header__logo { color:#fff; text-decoration:none; font-weight:700; letter-spacing: .5px; }
+
+.header__search { flex: 1; max-width: 520px; }
+.header__searchInput { width:100%; padding:8px 10px; border-radius:3px; border:1px solid #ddd; }
+
+.header__nav { display:flex; align-items:center; gap:14px; }
+.header__link { background:none; border:none; color:#fff; cursor:pointer; font-size:14px; text-decoration:none; }
+.header__btn { background:#fff; color:#000; padding:6px 10px; border-radius:3px; text-decoration:none; font-weight:600; }
+
+/* auth layout */
+.auth-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+}
+
+.auth-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* 入力欄を設計書通りに */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* ログイン・登録ボタン（設計書の赤色 #ea5b5b） */
+.btn-auth {
+    width: 100%;
+    background-color: #ea5b5b;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.auth-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+.auth { max-width: 520px; margin: 40px auto; padding: 0 16px; }
+.auth__title { text-align:center; margin: 0 0 18px; }
+.form__row { margin-bottom: 14px; }
+.form__label { display:block; margin-bottom: 6px; font-size: 14px; }
+.form__input { width:100%; padding:10px; border:1px solid #ddd; border-radius:3px; }
+.form__submit { width:100%; padding:12px; background:#ea5b5b; color:#fff; border:none; border-radius:3px; cursor:pointer; font-weight:700; }
+.form__link { display:block; text-align:center; margin-top: 12px; font-size: 13px; }
+
+.category-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.category-input {
+    display: none;
+}
+
+.category-label {
+    padding: 5px 15px;
+    border: 1px solid #ff4d4d;
+    color: #ff4d4d;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.category-input:checked+.category-label {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: #ff4d4d;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+/* 全体の幅を制限して中央に寄せる */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* タイトル周りの装飾 */
+.page-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sub-title {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    color: #666;
+}
+
+/* 入力欄を綺麗にする */
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* 価格の横並び */
+.price-input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.currency {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.image-upload-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #ccc;
+    padding: 20px;
+    min-height: 150px;
+}
