@@ -21,6 +21,9 @@ Dockerを使用して開発環境を構築します。
 * MySQL 8.0
 * Docker / Docker Compose
 
+## ER図
+*![ER図](erd.png)
+
 ## URL
 * 開発環境：http://localhost/
 * ユーザー登録：http://localhost/register
